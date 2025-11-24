@@ -16,14 +16,14 @@ This repository is designed to be used as a **template**.
 
 ## 🚀 Tech Stack
 
-- **Build:** Vite  
-- **Language:** TypeScript  
-- **Framework:** React 18  
-- **Styling:** styled-components  
-- **Theming:** ThemeProvider (light/dark structure prepared)  
-- **Routing:** React Router  
-- **Linting:** ESLint (flat config)  
-- **Formatting:** Prettier, EditorConfig  
+- **Build:** Vite
+- **Language:** TypeScript
+- **Framework:** React 18
+- **Styling:** styled-components
+- **Theming:** ThemeProvider (light/dark structure prepared)
+- **Routing:** React Router
+- **Linting:** ESLint (flat config)
+- **Formatting:** Prettier, EditorConfig
 - **Testing:** Vitest + Testing Library (optional, preconfigured)
 
 ---
@@ -33,11 +33,13 @@ This repository is designed to be used as a **template**.
 ### 1. Create a project from this template
 
 #### **Via GitHub**
+
 1. Click **“Use this template”**
 2. Select **“Create a new repository”**
 3. Clone it
 
 #### **Via CLI**
+
 ```bash
 npx degit <your-github-username>/neutral-react-template my-new-project
 cd my-new-project
@@ -49,16 +51,19 @@ npm install
 ## 🧑‍💻 Development
 
 Start the dev server:
+
 ```bash
 npm run dev
 ```
 
 Build for production:
+
 ```bash
 npm run build
 ```
 
 Preview the production build:
+
 ```bash
 npm run preview
 ```
@@ -80,24 +85,25 @@ npm run preview
 }
 ```
 
-- `dev` — start development server  
-- `build` — type-check + build  
-- `preview` — preview built app  
-- `lint` — run ESLint  
-- `lint:fix` — run ESLint with autofix  
-- `type-check` — TypeScript only  
-- `format` — code formatting with Prettier  
+- `dev` — start development server
+- `build` — type-check + build
+- `preview` — preview built app
+- `lint` — run ESLint
+- `lint:fix` — run ESLint with autofix
+- `type-check` — TypeScript only
+- `format` — code formatting with Prettier
 
 ---
 
 ## 📁 Project Structure
 
-> **Naming conventions**  
-> - Components → `PascalCase.tsx`  
-> - Styled components → `PascalCase.styled.tsx`  
-> - Hooks → `usePascalCase.ts`  
-> - Component folders → `PascalCase`  
-> - Technical folders → `camelCase`  
+> **Naming conventions**
+>
+> - Components → `PascalCase.tsx`
+> - Styled components → `PascalCase.styled.tsx`
+> - Hooks → `usePascalCase.ts`
+> - Component folders → `PascalCase`
+> - Technical folders → `camelCase`
 
 ```text
 node_modules/             # dependencies
@@ -173,9 +179,9 @@ vite.config.ts            # Vite config + aliases + tests
 
 This template uses **styled-components** with a typed theme.
 
-- Global reset → `src/styles/reset.css`  
-- Global styles → `src/styles/GlobalStyles.ts`  
-- Theme typing → `src/styles/styled.d.ts`  
+- Global reset → `src/styles/reset.css`
+- Global styles → `src/styles/GlobalStyles.ts`
+- Theme typing → `src/styles/styled.d.ts`
 
 Themes live in:
 
