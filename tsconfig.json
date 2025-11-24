@@ -1,0 +1,50 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ESNext"
+    ],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "baseUrl": "./",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ],
+      "@styles/*": [
+        "src/styles/*"
+      ],
+      "@layouts/*": [
+        "src/components/layouts/*"
+      ],
+      "@icons/*": [
+        "src/components/icons/*"
+      ],
+      "@ui/*": [
+        "src/components/ui/*"
+      ],
+      "@sections/*": [
+        "src/components/sections/*"
+      ],
+      "@pages/*": [
+        "src/pages/*"
+      ]
+    }
+  },
+  "include": [
+    "src"
+  ]
+}
