@@ -1,4 +1,4 @@
-import { AppTheme } from './types';
+import { AppTheme } from '../styled';
 
 export const light: AppTheme = {
     breakpoints: {
